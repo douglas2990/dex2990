@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projetos Android Studio 2021/Pokedex My Application 2990/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Projetos Android Studio 2021/Pokedex My Application 2990/app/src/main/res/layout/activity_splash_start.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projetos Android Studio 2021/Pokedex My Application 2990/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Projetos Android Studio 2021/Pokedex My Application 2990/app/src/main/res/layout/detail_images_fragment.xml" value="0.18" />
+        <entry key="..\:/Projetos Android Studio 2021/Pokedex My Application 2990/app/src/main/res/layout/fragment_detail_imagem.xml" value="0.1838768115942029" />
+        <entry key="..\:/Projetos Android Studio 2021/Pokedex My Application 2990/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Projetos Android Studio 2021/Pokedex My Application 2990/app/src/main/res/layout/fragment_hoenn_dex.xml" value="0.1983695652173913" />
+        <entry key="..\:/Projetos Android Studio 2021/Pokedex My Application 2990/app/src/main/res/layout/fragment_second.xml" value="0.3942470389170897" />
+        <entry key="..\:/Projetos Android Studio 2021/Pokedex My Application 2990/app/src/main/res/layout/pokemon_adapter.xml" value="0.1" />
+        <entry key="..\:/Projetos Android Studio 2021/Pokedex My Application 2990/app/src/main/res/menu/menu_filtro_regions.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projetos Android Studio 2021/Pokedex My Application 2990/app/src/main/res/menu/menu_main.xml" value="0.25" />
+        <entry key="..\:/Projetos Android Studio 2021/Pokedex My Application 2990/app/src/main/res/menu/menu_second_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projetos Android Studio 2022/Dex My Application 2990 - PlayStore/app/src/main/res/layout/activity_splash_start.xml" value="0.1" />
+        <entry key="..\:/Projetos Android Studio 2022/Dex My Application 2990 - PlayStore/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Projetos Android Studio 2022/Dex My Application 2990 - PlayStore/app/src/main/res/layout/fragment_second.xml" value="0.10643115942028986" />
+        <entry key="..\:/Projetos Android Studio 2022/Dex My Application 2990 - PlayStore/app/src/main/res/layout/pokemon_adapter.xml" value="0.1082427536231884" />
+        <entry key="..\:/Projetos Android Studio 2022/Dex My Application 2990 - PlayStore/app/src/main/res/menu/menu_main.xml" value="0.1" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/activity_credits.xml" value="0.17119565217391305" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/activity_detail_type.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/activity_main.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/activity_splash_start.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/all_moves_adapter.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/detail_auxiliar_fragment.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/detail_images_fragment.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/fragment_dashboard.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/fragment_detail_type.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/fragment_estagio_evolucao.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/fragment_evolution.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/fragment_first.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/fragment_home.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/fragment_menu_detail_type.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/fragment_menu_main.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/fragment_move.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/fragment_moves_pokemon.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/fragment_notifications.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/fragment_pokemon_species.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/fragment_second.xml" value="0.22" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/fragment_second2.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/fragment_type.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/pokemon_adapter.xml" value="0.1" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/pokemon_varieties_fragment.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/type_adapter.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/layout/varieties_adapter.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/menu/menu_detail_types.xml" value="0.19537037037037036" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/menu/menu_filtro_regions.xml" value="0.18703703703703703" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/menu/menu_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990 - PlayStore/app/src/main/res/menu/menu_second_fragment.xml" value="0.19537037037037036" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/drawable/background_degrade.xml" value="0.2203125" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/drawable/background_my_pokedex.xml" value="0.2203125" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/drawable/ic_search_white_24dp.xml" value="0.2203125" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/activity_bottom_navigation_main.xml" value="0.1" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/activity_detail_type.xml" value="0.14945652173913043" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/activity_main.xml" value="0.14945652173913043" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/all_moves_adapter.xml" value="0.33" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/content_main.xml" value="0.14945652173913043" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/content_menu_main.xml" value="0.1308876811594203" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/detail_auxiliar_adapter.xml" value="0.1" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/detail_auxiliar_fragment.xml" value="0.1671195652173913" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/detail_images_fragment.xml" value="0.18614130434782608" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/detail_move_adapter.xml" value="0.1" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/detail_move_fragment.xml" value="0.12273550724637682" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/evolucao_estagio1_adapter.xml" value="0.18070652173913043" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/evolucao_estagio_adapter.xml" value="0.22" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/fragment_dashboard.xml" value="0.10507246376811594" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/fragment_detail_type.xml" value="0.14945652173913043" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/fragment_estagio_evolucao.xml" value="0.1" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/fragment_evolution.xml" value="0.2" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/fragment_first.xml" value="0.25" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/fragment_menu_detail_type.xml" value="0.25" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/fragment_menu_main.xml" value="0.1" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/fragment_move.xml" value="0.1" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/fragment_moves.xml" value="0.25" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/fragment_moves_pokemon.xml" value="0.5" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/fragment_pokemon_species.xml" value="0.1408514492753623" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/fragment_second.xml" value="0.18614130434782608" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/fragment_second2.xml" value="0.125" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/fragment_second_testev2.xml" value="0.25" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/fragment_type.xml" value="0.12273550724637682" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/move_adapter.xml" value="0.25" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/pokemon_adapter.xml" value="0.1" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/pokemon_varieties_fragment.xml" value="0.1" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/search_pokemon_adapter.xml" value="0.16757246376811594" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/search_pokemon_fragment.xml" value="0.22" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/type_adapter.xml" value="0.12273550724637682" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/layout/varieties_adapter.xml" value="0.12635869565217392" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/menu/menu_detail_types.xml" value="0.1" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/menu/menu_filtro_regions.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/menu/menu_for_search.xml" value="0.19074074074074074" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/menu/menu_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/menu/menu_search_android_widget.xml" value="0.2" />
+        <entry key="..\:/Projetos Android Studio 2022/Pokedex My Application 2990/app/src/main/res/menu/menu_second_fragment.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

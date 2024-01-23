@@ -1,0 +1,66 @@
+package com.douglas2990.pokedexmyapplication2990.viewModel.filtroRegions
+
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import com.douglas2990.pokedexmyapplication2990.R
+import com.douglas2990.pokedexmyapplication2990.api.RestManager
+import com.douglas2990.pokedexmyapplication2990.model.responses.PokemonList
+import com.douglas2990.pokedexmyapplication2990.model.responses.Result
+import com.douglas2990.pokedexmyapplication2990.screenState.FirstScreenState
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+
+class PokemonSinnohViewModel: ViewModel() {
+
+    val state: MutableLiveData<FirstScreenState> by lazy{
+        MutableLiveData<FirstScreenState>()
+    }
+    init {
+        state.value = FirstScreenState.Loading
+        //RestManager.getEndpoints().getPokemon(493-386,  386).enqueue(object : Callback<Model>{
+        RestManager.getEndpoints().getPokemon(493-386,  386).enqueue(object : Callback<PokemonList>{
+            override fun onResponse(
+                //call: Call<Model>,
+                call: Call<PokemonList>,
+                //response: Response<Model>
+                response: Response<PokemonList>
+            ) {
+                response.body()?.let { body ->
+                    state.value = FirstScreenState.Success(body.results)
+                } ?: run {state.value = FirstScreenState.Error(R.string.erro)}
+            }
+
+            //override fun onFailure(call: Call<Model>, t: Throwable) {
+            override fun onFailure(call: Call<PokemonList>, t: Throwable) {
+                state.value = FirstScreenState.Error(R.string.erro)
+            }
+
+        })
+    }
+
+    var listaQuery: List<Result> = ArrayList()
+    val listaQueryBusca: MutableList<Result> = ArrayList()
+
+    fun pesquisarQuery(texto: String?) {
+        listaQueryBusca.clear()
+        for (query in listaQuery) {
+            if (query.name != null) {
+                val nome = query.name.lowercase()
+                val id = query.url.replace("https://pokeapi.co/api/v2/pokemon/", "")
+                    .replace("/", "").lowercase()
+                if (nome.contains(texto !!) || id.contains(texto)) {
+                    listaQueryBusca.add(query)
+                }
+            } else {
+                val nome = query.name
+                val id = query.url.replace("https://pokeapi.co/api/v2/pokemon/", "")
+                    .replace("/", "")
+                if (nome.contains(texto !!) || id.contains(texto)) {
+                    //if (nome.contains(texto !!) ) {
+                    listaQueryBusca.add(query)
+                }
+            }
+        }
+    }
+}

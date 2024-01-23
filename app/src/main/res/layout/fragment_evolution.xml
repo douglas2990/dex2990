@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrolViewFraagmentEvolution"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layoutfragmentEvolution">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/details_shimmerEvolution_pokemon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/details_shimmerEvolution_pokemonImage1"
+        app:shimmer_auto_start="false">
+
+        <TextView
+            android:id="@+id/txt_namePokemonEvolution1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            tools:text="Pikachu" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/details_shimmerEvolution_pokemon2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/details_shimmerEvolution_pokemonImage2"
+        app:shimmer_auto_start="false">
+
+        <TextView
+            android:id="@+id/txt_namePokemonEvolution2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            tools:text="Pikachu" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/details_shimmerEvolution_pokemon3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/details_shimmerEvolution_pokemonImage3"
+        app:shimmer_auto_start="false">
+
+        <TextView
+            android:id="@+id/txt_namePokemonEvolution3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            tools:text="Pikachu" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/details_shimmerEvolution_pokemonMega"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/details_shimmerEvolution_pokemonImageMega"
+        app:shimmer_auto_start="false">
+
+        <TextView
+            android:id="@+id/txt_namePokemonEvolutionMega"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            tools:text="Pikachu" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/details_shimmerEvolution_pokemonImage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shimmer_auto_start="false">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/imgEvolution1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            tools:background="@color/teal_700" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/details_shimmerEvolution_pokemonImage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/details_shimmerEvolution_pokemon1"
+        app:shimmer_auto_start="false">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/imgEvolution2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            tools:background="@color/white" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/details_shimmerEvolution_pokemonImage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/details_shimmerEvolution_pokemon2"
+        app:shimmer_auto_start="false">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/imgEvolution3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            tools:background="@color/white" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/details_shimmerEvolution_pokemonImageMega"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/details_shimmerEvolution_pokemon3"
+        app:shimmer_auto_start="false">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/imgEvolutionMega"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            tools:background="@color/teal_700" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/details_shimmerEvolution_comoEvolui1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/details_shimmerEvolution_pokemonImage1"
+        app:layout_constraintTop_toTopOf="@id/details_shimmerEvolution_pokemonImage1"
+        app:shimmer_auto_start="false">
+
+        <TextView
+            android:id="@+id/txt_comoEvolui1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            tools:text="Pikachu" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/details_shimmerEvolution_comoEvolui2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/details_shimmerEvolution_pokemonImage2"
+        app:layout_constraintTop_toTopOf="@id/details_shimmerEvolution_pokemonImage2"
+        app:shimmer_auto_start="false">
+
+        <TextView
+            android:id="@+id/txt_comoEvolui2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            tools:text="Pikachu" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/details_shimmerEvolution_MetodoEvolui1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/details_shimmerEvolution_pokemonImage1"
+        app:layout_constraintTop_toBottomOf="@id/details_shimmerEvolution_comoEvolui1"
+        app:shimmer_auto_start="false">
+
+        <TextView
+            android:id="@+id/txt_MetodoEvolui1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            tools:text="up" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/details_shimmerEvolution_MetodoEvolui2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/details_shimmerEvolution_pokemonImage2"
+        app:layout_constraintTop_toBottomOf="@id/details_shimmerEvolution_comoEvolui2"
+        app:shimmer_auto_start="false">
+
+        <TextView
+            android:id="@+id/txt_MetodoEvolui2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            tools:text="up" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/details_shimmerEvolution_SetaEvolui1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/details_shimmerEvolution_pokemonImage1"
+        app:layout_constraintTop_toBottomOf="@id/details_shimmerEvolution_comoEvolui1"
+        app:shimmer_auto_start="false">
+
+        <com.facebook.drawee.view.DraweeView
+            android:id="@+id/img_setaEvolui1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textSize="25sp"
+            tools:text="Pikachu" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/details_shimmerEvolution_SetaEvolui2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/details_shimmerEvolution_pokemonImage2"
+        app:layout_constraintTop_toBottomOf="@id/details_shimmerEvolution_comoEvolui2"
+        app:shimmer_auto_start="false">
+
+        <com.facebook.drawee.view.DraweeView
+            android:id="@+id/img_setaEvolui2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textSize="25sp"
+            tools:text="Pikachu" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:rippleColor="@color/purple_500"
+            app:srcCompat="@drawable/ic_baseline_home_48" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

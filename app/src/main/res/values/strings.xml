@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Pokedex My Application 2990</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="previous">Previous</string>
+
+    <string name="erro">Falha ao carregar o app</string>
+    <string name="erroApi">Erro ao carregar Api</string>
+    <string name="ditto">Ditto</string>
+    <string name="number_132">132</string>
+    <string name="kanto">Kanto</string>
+    <string name="johto">Johto</string>
+    <string name="hoenn">Hoenn</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="sinnoh">Sinnoh</string>
+    <string name="unova">Unova</string>
+    <string name="kalos">Kalos</string>
+    <string name="alola">Alola</string>
+    <string name="galar">Galar</string>
+    <string name="formas">Formas</string>
+    <string name="mega_evolucao">Mega Evolucao</string>
+    <string name="estagios_de_evolucao">Estágios de evolução</string>
+    <string name="estagio_1">Estágio 1</string>
+    <string name="nome_pokemon">nome_pokemon</string>
+    <string name="level">"level: "</string>
+    <string name="search">Search</string>
+    <string name="moves">moves</string>
+    <string name="menu">menu</string>
+    <string name="favoritar">Favoritar</string>
+    <string name="title_activity_bottom_navigation_main">BottomNavigationMain</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_detail_type">DetailTypeActivity</string>
+    <string name="double_damage_from">Double Damage From</string>
+    <string name="double_damage_to">Double Damage To</string>
+    <string name="half_damage_from">half_damage_from</string>
+    <string name="half_damage_to">Half Damage To</string>
+    <string name="no_damage_from">No Damage From</string>
+    <string name="no_damage_to">No Damage To</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="pokemon">Pokemon</string>
+    <string name="search_pokemon">search pokemon</string>
+    <string name="stage_evolulion">stage evolution</string>
+    <string name="credits">credits</string>
+    <string name="gba_angle">GBA angle</string>
+    <string name="varieties">varieties</string>
+
+</resources>

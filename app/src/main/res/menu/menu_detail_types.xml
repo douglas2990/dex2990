@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/double_damage_from"
+        android:title="@string/double_damage_from"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/double_damage_to"
+        android:title="@string/double_damage_to"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/half_damage_from"
+        android:title="@string/half_damage_from"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/half_damage_to"
+        android:title="@string/half_damage_to"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/no_damage_from"
+        android:title="@string/no_damage_from"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/no_damage_to"
+        android:title="@string/no_damage_to"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/moves_for_type"
+        android:title="@string/moves"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/pokemonType"
+        android:title="@string/pokemon"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/app_bar_search_pokemon"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView">
+
+    </item>
+</menu>

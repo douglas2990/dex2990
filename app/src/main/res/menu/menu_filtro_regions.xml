@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/dex_kanto"
+        android:title="@string/kanto"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/dex_johto"
+        android:title="@string/johto"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/dex_hoenn"
+        android:title="@string/hoenn"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/dex_sinnoh"
+        android:title="@string/sinnoh"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/dex_unova"
+        android:title="@string/unova"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/dex_kalos"
+        android:title="@string/kalos"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/dex_alola"
+        android:title="@string/alola"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/dex_galar"
+        android:title="@string/galar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mega_evolucao"
+        android:title="@string/mega_evolucao"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/search_pokemon_menu"
+        android:title="@string/search_pokemon"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/firstMenu"
+        android:title="@string/menu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/app_bar_search_pokemon"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView">
+
+    </item>
+</menu>

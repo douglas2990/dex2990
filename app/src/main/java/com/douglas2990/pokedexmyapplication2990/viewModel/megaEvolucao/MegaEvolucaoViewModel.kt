@@ -1,0 +1,36 @@
+package com.douglas2990.pokedexmyapplication2990.viewModel.megaEvolucao
+
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import com.douglas2990.pokedexmyapplication2990.R
+import com.douglas2990.pokedexmyapplication2990.api.RestManager
+import com.douglas2990.pokedexmyapplication2990.model.responses.PokemonList
+import com.douglas2990.pokedexmyapplication2990.screenState.FirstScreenState
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+
+class MegaEvolucaoViewModel: ViewModel() {
+    val state: MutableLiveData<FirstScreenState> by lazy{
+        MutableLiveData<FirstScreenState>()
+    }
+
+    init {
+        state.value = FirstScreenState.Loading
+        RestManager.getEndpoints().getPokemon(10091 - 10044 , 898 + 39).enqueue(object :Callback<PokemonList>{
+            override fun onResponse(
+                call: Call<PokemonList>,
+                response: Response<PokemonList>)
+            {
+                response.body()?.let { body ->
+                    state.value = FirstScreenState.Success(body.results)
+                } ?: run{state.value = FirstScreenState.Error(R.string.erro)}
+            }
+
+            override fun onFailure(call: Call<PokemonList>, t: Throwable) {
+                state.value = FirstScreenState.Error(R.string.erro)
+            }
+
+        })
+    }
+}

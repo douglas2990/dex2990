@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.FirstFragment"
+        android:label="Pokedex tech2990"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_DetailImagesFragment"
+            app:destination="@id/DetailImagesFragment" />
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+
+        <action
+            android:id="@+id/action_FirstFragment_to_DexKantoFragment"
+            app:destination="@id/DexKantoFragment" />
+
+        <action android:id="@+id/action_FirstFragment_to_DexJohtoFragment"
+            app:destination="@id/DexJohtoFragment" />
+
+        <action
+            android:id="@+id/action_FirstFragment_to_DexHoennFragment"
+            app:destination="@id/DexHoennFragment" />
+
+        <action
+            android:id="@+id/action_FirstFragment_to_DexSinnohFragment"
+            app:destination="@id/DexSinnohFragment" />
+
+        <action
+            android:id="@+id/action_FirstFragment_to_UnovaFragment"
+            app:destination="@id/DexUnovaFragment" />
+
+        <action
+            android:id="@+id/action_FirstFragment_to_DexKalosFragment"
+            app:destination="@id/DexKalosFragment" />
+
+        <action
+            android:id="@+id/action_FirstFragment_to_DexAlolaFragment"
+            app:destination="@id/DexAlolaFragment"/>
+
+        <action
+            android:id="@+id/action_FirstFragment_to_DexGalarFragment"
+            app:destination="@id/DexGalarFragment" />
+
+        <action
+            android:id="@+id/action_FirstFragment_to_MegaEvolucaoFragment"
+            app:destination="@id/MegaEvolucaoFragment" />
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SearchPokemonFragment"
+            app:destination="@id/SearchPokemonFragment" />
+
+        <action
+            android:id="@+id/action_FirstFragment_to_MovesFragment"
+            app:destination="@id/MoveFragment" />
+
+        <action
+            android:id="@+id/action_FirstFragment_to_TypeFragment"
+            app:destination="@id/TypeFragment" />
+
+        <action
+            android:id="@+id/action_FirstFragmentToFirstMenuFragment"
+            app:destination="@id/FirstMenuFragment"/>
+
+        <action
+            android:id="@+id/action_FistFragmentToVarietiesFragment"
+            app:destination="@id/varieties_Fragment" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.SecondFragment"
+        android:label="Pokemon"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+
+        <action
+            android:id="@+id/action_SecondFragment_to_DetailImagesFragment"
+            app:destination="@id/DetailImagesFragment" />
+
+        <action
+            android:id="@+id/action_SecondFragment_to_DetailEvolutionFragment"
+            app:destination="@id/DetailEvolutionFragment" />
+
+        <action
+            android:id="@+id/action_SecondFragment_to_DetailPokemonSpeciesFragment"
+            app:destination="@id/DetailPokemonSpeciesFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_EstagioEvolutionFragment"
+            app:destination="@id/EstagioEvolutionFragment" />
+
+        <action
+            android:id="@+id/action_SecondFragment_to_MovesPokemonFragment"
+            app:destination="@id/MovesPokemonFragment" />
+
+
+        <action
+            android:id="@+id/action_SecondFragmentToVarietiesFragment"
+            app:destination="@id/varieties_Fragment" />
+
+        <action
+            android:id="@+id/action_secondFragment_to_fragmentDetailMenu"
+            app:destination="@id/fragmentDetailMenu" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/DexKantoFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.fragments.region.KantoDexFragment"
+        android:label="@string/kanto"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_KantoFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+
+        <action
+            android:id="@+id/action_kantoFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/DexJohtoFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.fragments.region.JohtoDexFragment"
+        android:label="@string/johto"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_JohtoFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+
+        <action
+            android:id="@+id/action_JohtoFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/DexHoennFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.fragments.region.HoennDexFragment"
+        android:label="@string/hoenn"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_HoennFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+
+        <action
+            android:id="@+id/action_HoennFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/DexSinnohFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.fragments.region.SinnohDexFragment"
+        android:label="Sinnoh"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_SinnohFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment"/>
+
+        <action
+            android:id="@+id/action_SinnohFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/DexUnovaFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.fragments.region.UnovaDexFragment"
+        android:label="Unova"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_UnovaFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+
+        <action
+            android:id="@+id/action_UnovaFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/DexKalosFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.fragments.region.KalosDexFragment"
+        android:label="Kalos"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_KalosFragment_to_SecondFrament"
+            app:destination="@id/SecondFragment" />
+
+        <action
+            android:id="@+id/action_kalosFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/DexAlolaFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.fragments.region.AlolaDexFragment"
+        android:label="Alola"
+        tools:layout="@layout/fragment_first" >
+
+        <action
+            android:id="@+id/action_AlolaFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+
+        <action
+            android:id="@+id/action_AlolaFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/DexGalarFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.fragments.region.GalarDexFragment"
+        android:label="Galar"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_GalarFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+
+        <action
+            android:id="@+id/action_GalarFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/MegaEvolucaoFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.fragments.megaevolucao.MegaEvolucaoFragment"
+        android:label="Mega Evolução"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_MegaEvolucaoFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+
+        <action
+            android:id="@+id/action_MegaFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/DetailImagesFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.imagesDetail.DetailImagesFragment"
+        android:label="Shape"
+        tools:layout="@layout/detail_images_fragment">
+
+        <action
+            android:id="@+id/action_DetailImagesFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/DetailEvolutionFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.evolution.DetailPokemonEvolutionFragment"
+        android:label="Evolution"
+        tools:layout="@layout/fragment_evolution">
+
+        <action
+            android:id="@+id/action_DetailEvolutionFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/DetailPokemonSpeciesFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.detailSpecies.DetailPokemonSpeciesFragment"
+        android:label="Species"
+        tools:layout="@layout/fragment_pokemon_species">
+        <action
+            android:id="@+id/DetailPokemonSpeciesFragmentToEvolutionFragment"
+            app:destination="@id/DetailEvolutionFragment" />
+
+        <action
+            android:id="@+id/action_DetailPokemonSpeciesFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/EstagioEvolutionFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.estagioEvolution.EstagioEvolutionFragment"
+        android:label="Estagio Evolution">
+
+        <action
+            android:id="@+id/EstagioEvolutionFragmentToSecondFragment"
+            app:destination="@id/SecondFragment"/>
+
+        <action
+            android:id="@+id/action_EstagioEvolutionFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/MovesPokemonFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.moves.movespokemon.MovesPokemonFragment"
+        android:label="Moves Pokemon ">
+
+        <action
+            android:id="@+id/MovePokemonFragmentToFragmentDetailMenu"
+            app:destination="@id/fragmentDetailMenu"/>
+
+        <action
+            android:id="@+id/MovePokemonFragmentToDetailMovesFragment"
+            app:destination="@id/DetailMovesFragment"/>
+
+        <action
+            android:id="@+id/action_MovePokemonFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/SearchPokemonFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.search.SearchPokemonFragment"
+        android:label="Search Pokedex"
+        tools:layout="@layout/search_pokemon_fragment">
+
+        <action
+            android:id="@+id/action_SearchPokemonFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment"/>
+
+        <action
+            android:id="@+id/action_SearchFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/MoveFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.moves.MovesFragment"
+        android:label="Moves"
+        tools:layout="@layout/fragment_move">
+
+        <action
+            android:id="@+id/MoveFragmentToDetailMovesFragment"
+            app:destination="@id/DetailMovesFragment"/>
+
+        <action
+            android:id="@+id/action_MoveFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/DetailMovesFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.moves.DetailMoveFragment"
+        android:label="Pokemon">
+
+        <action
+            android:id="@+id/DetailMovesFragmentToSecondFragment"
+            app:destination="@id/SecondFragment" />
+
+        <action
+            android:id="@+id/action_detailMovesFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/TypeFragment"
+        android:label="types"
+        android:name="com.douglas2990.pokedexmyapplication2990.type.TypeFragment"
+        tools:layout="@layout/fragment_type">
+
+        <action
+            android:id="@+id/TypeFragmentToDetailTypeFragment"
+            app:destination="@id/DetailTypeFragment" />
+
+        <action
+            android:id="@+id/TypeFragmentToDoubleDamageFromFragment"
+            app:destination="@id/double_damage_fromFragment" />
+
+        <action
+            android:id="@+id/action_typeFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/FirstMenuFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.FirstMenuFragment"
+        android:label="FirstMenuFragment"
+        tools:layout="@layout/fragment_menu_main">
+
+
+        <action
+            android:id="@+id/actionFirstMenuFragment_to_MoveFragment"
+            app:destination="@id/MoveFragment" />
+
+        <action
+            android:id="@+id/actionFirstMenuFragment_to_TypeFragment"
+            app:destination="@id/TypeFragment" />
+
+        <action
+            android:id="@+id/action_FirstMenuFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/DetailTypeFragment"
+        android:label="pokemon for type"
+        android:name="com.douglas2990.pokedexmyapplication2990.type.detailType.DetailTypeFragment"
+        tools:layout="@layout/fragment_first">
+        <action
+            android:id="@+id/actionDetailTypeFragmentToSecondFragment"
+            app:destination="@id/SecondFragment" />
+
+        <action
+            android:id="@+id/actionDetailTypeFragmentToFragmentMenuDetailType"
+            app:destination="@id/fragmentDetailMenu"/>
+
+
+
+        <action
+            android:id="@+id/actionDetailTypeToDetailType"
+            app:destination="@id/DetailTypeFragment" />
+
+
+        <action
+            android:id="@+id/action_detail_type_Fragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+
+
+    </fragment>
+
+
+
+
+    <fragment
+        android:id="@+id/fragmentDetailMenu"
+        android:name="com.douglas2990.pokedexmyapplication2990.type.detailType.FragmentDetailTypeMenu"
+        android:label="Detail Type"
+        tools:layout="@layout/fragment_menu_detail_type">
+
+        <action
+            android:id="@+id/actionfragmentDetailMenuToDoubleDamageFromFragment"
+            app:destination="@id/double_damage_fromFragment"/>
+
+        <action
+            android:id="@+id/actionfragmentDetailMenuToDoubleDamageToFragment"
+            app:destination="@id/double_damage_toFragment"/>
+
+        <action
+            android:id="@+id/actionfragmentDetailMenuToHalfDamageFromFragment"
+            app:destination="@id/half_damage_fromFragment"/>
+
+        <action
+            android:id="@+id/actionfragmentDetailMenuToHalfDamageToFragment"
+            app:destination="@id/half_damage_ToFragment"/>
+
+        <action
+            android:id="@+id/actionfragmentDetailMenuToNoDamageFromFragment"
+            app:destination="@id/no_damage_fromFragment"/>
+
+        <action
+            android:id="@+id/actionfragmentDetailMenuToNoDamageToFragment"
+            app:destination="@id/no_damage_toFragment"/>
+
+        <action
+            android:id="@+id/actionfragmentDetailMenuToMovesForTypeFragment"
+            app:destination="@id/moves_for_typeFragment"/>
+
+        <action
+            android:id="@+id/actionfragmentDetailMenuToDetailTypeFragment"
+            app:destination="@id/DetailTypeFragment"/>
+
+        <action
+            android:id="@+id/action_detailMenuFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/double_damage_fromFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.type.detailType.DoubleDamageFromFragment"
+        android:label="Double Damage From"
+        tools:layout="@layout/fragment_type">
+
+        <action
+            android:id="@+id/double_damage_fromFragment_to_DetailTypeFragment"
+            app:destination="@id/DetailTypeFragment" />
+
+        <action
+            android:id="@+id/action_double_damageFromFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/double_damage_toFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.type.detailType.DoubleDamageToFragment"
+        android:label="Double Damage To"
+        tools:layout="@layout/fragment_type">
+
+        <action
+            android:id="@+id/double_damage_ToFragment_to_DetailTypeFragment"
+            app:destination="@id/DetailTypeFragment" />
+
+        <action
+            android:id="@+id/action_doubledamageToFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/half_damage_fromFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.type.detailType.HalfDamageFromFragment"
+        android:label="Half Damage From"
+        tools:layout="@layout/fragment_type" >
+
+        <action
+            android:id="@+id/half_damage_From_Fragment_to_DetailTypeFragment"
+            app:destination="@id/DetailTypeFragment" />
+
+        <action
+            android:id="@+id/action_half_damage_from_Fragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/half_damage_ToFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.type.detailType.HalfDamageToFragment"
+        android:label="Half Damage To"
+        tools:layout="@layout/fragment_type" >
+
+        <action
+            android:id="@+id/half_damage_To_Fragment_to_DetailTypeFragment"
+            app:destination="@id/DetailTypeFragment" />
+
+        <action
+            android:id="@+id/action_half_damage_toFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/no_damage_fromFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.type.detailType.NoDamageFromFragment"
+        android:label="No Damage From"
+        tools:layout="@layout/fragment_type" >
+
+        <action
+            android:id="@+id/No_damage_From_Fragment_to_DetailTypeFragment"
+            app:destination="@id/DetailTypeFragment" />
+
+        <action
+            android:id="@+id/action_NoDamageFromFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/no_damage_toFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.type.detailType.NoDamageToFragment"
+        android:label="No Damage To"
+        tools:layout="@layout/fragment_type" >
+
+        <action
+            android:id="@+id/No_damage_To_Fragment_to_DetailTypeFragment"
+            app:destination="@id/DetailTypeFragment" />
+
+        <action
+            android:id="@+id/action_NoDamageToFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/moves_for_typeFragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.type.detailType.MoveForTypesFragment"
+        android:label="Moves For Types"
+        tools:layout="@layout/fragment_type">
+
+        <action
+            android:id="@+id/Moves_for_Fragment_to_DetailMoveFragment"
+            app:destination="@id/DetailMovesFragment" />
+
+        <action
+            android:id="@+id/action_moves_for_typeFragment_to_first_fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/varieties_Fragment"
+        android:name="com.douglas2990.pokedexmyapplication2990.detailSpecies.varieties.VarietiesFragment"
+        android:label="Varieties"
+        tools:layout="@layout/fragment_type" />
+
+    <action
+        android:id="@+id/actionVarietiesToSecondFragment"
+        app:destination="@id/SecondFragment"/>
+
+    <action
+        android:id="@+id/action_varietiesFragment_to_first_fragment"
+        app:destination="@id/FirstFragment" />
+
+
+</navigation>

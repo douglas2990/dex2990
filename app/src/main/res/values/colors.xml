@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FF03DAC5</color>
+    <color name="purple_500">#FF018786</color>
+    <color name="purple_700">#FF018786</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="stronger_black">#000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pokemon_color_1">#705746</color>
+    <color name="pokemon_color_2">#6390F0</color>
+    <color name="pokemon_color_3">#E2BF65</color>
+    <color name="pokemon_color_4">#A8A77A</color>
+    <color name="pokemon_color_5">#7AC74C</color>
+    <color name="pokemon_color_6">#735797</color>
+    <color name="pokemon_color_7">#D685AD</color>
+    <color name="pokemon_color_8">#C22E28</color>
+    <color name="pokemon_color_9">#FFFFFF</color>
+    <color name="pokemon_color_10">#F7D02C</color>
+
+
+    <!---
+
+    normal: '#A8A77A',
+	fire: '#EE8130',
+	water: '#6390F0',
+	electric: '#F7D02C',
+	grass: '#7AC74C',
+	ice: '#96D9D6',
+	fighting: '#C22E28',
+	poison: '#A33EA1',
+	ground: '#E2BF65',
+	flying: '#A98FF3',
+	psychic: '#F95587',
+	bug: '#A6B91A',
+	rock: '#B6A136',
+	ghost: '#735797',
+	dragon: '#6F35FC',
+	dark: '#705746',
+	steel: '#B7B7CE',
+	fairy: '#D685AD',
+
+	{
+            "name": "black",
+            "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
+        },
+        {
+            "name": "blue",
+            "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
+        },
+        {
+            "name": "brown",
+            "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
+        },
+        {
+            "name": "gray",
+            "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
+        },
+        {
+            "name": "green",
+            "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
+        },
+        {
+            "name": "pink",
+            "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
+        },
+        {
+            "name": "purple",
+            "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
+        },
+        {
+            "name": "red",
+            "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
+        },
+        {
+            "name": "white",
+            "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
+        },
+        {
+            "name": "yellow",
+            "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
+        }
+
+    -->
+</resources>
