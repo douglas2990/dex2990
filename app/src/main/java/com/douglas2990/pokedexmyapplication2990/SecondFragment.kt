@@ -70,7 +70,7 @@ class SecondFragment : Fragment() {
 
        adView.adSize = AdSize.BANNER
 
-       //adView.adUnitId = "ca-app-pub-3xxxxxxxxxx/6xxxxxxxx1"
+       //adView.adUnitId = "ca-app-pub-3xxxxxxxxxxx/6xxxxxxxx1"
        adView.adUnitId = "ca-app-pub-95xxxxxxxx~109xxxxxx2"
 
        mAdView = binding.adView
