@@ -70,8 +70,8 @@ class SecondFragment : Fragment() {
 
        adView.adSize = AdSize.BANNER
 
-       //adView.adUnitId = "ca-app-pub-3940256099942544/6300978111"
-       adView.adUnitId = "ca-app-pub-9539951481565522~1099798792"
+       //adView.adUnitId = "ca-app-pub-3xxxxxxxxxx/6xxxxxxxx1"
+       adView.adUnitId = "ca-app-pub-95xxxxxxxx~109xxxxxx2"
 
        mAdView = binding.adView
        val adRequest = AdRequest.Builder().build()
