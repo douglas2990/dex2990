@@ -1,4 +1,4 @@
-### 📱 Pokédex App – Android (Kotlin)
+### 📱 Dex App – Android (Kotlin)
 
 Aplicativo Android desenvolvido em **Kotlin**, que consome dados da **PokéAPI** para exibir informações detalhadas sobre os Pokémon. O projeto foi estruturado seguindo a arquitetura **MVVM (Model–View–ViewModel)**, promovendo separação de responsabilidades, maior testabilidade e facilidade de manutenção.
 
