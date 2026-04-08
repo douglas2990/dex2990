@@ -8,6 +8,15 @@
 
 Enciclopédia Pokémon desenvolvida em **Kotlin**, focada em demonstrar a implementação da arquitetura **MVVM** e o consumo eficiente de APIs REST utilizando a **PokéAPI**.
 
+
+## 🔗 Links Úteis
+
+| 📂 Código Fonte | 📥 Versão Estável |
+| :--- | :--- |
+| [![Acessar Branch Master](https://img.shields.io/badge/Acessar_Código-Master-blue?style=for-the-badge&logo=github)](https://github.com/douglas2990/dex2990/tree/master) | [![Download APK](https://img.shields.io/badge/Download-APK-success?style=for-the-badge&logo=android)](https://github.com/douglas2990/dex2990/releases/download/v1.0.0/app-debug.apk) |
+
+---
+
 ## 🚀 O Projeto
 
 O Dex App é um guia detalhado que permite aos usuários explorar o universo Pokémon. O projeto foi construído para ser um exemplo prático de como estruturar uma aplicação escalável, utilizando componentes do **Android Jetpack** e garantindo uma separação clara de responsabilidades.
