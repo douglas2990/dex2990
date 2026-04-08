@@ -9,11 +9,7 @@
 Enciclopédia Pokémon desenvolvida em **Kotlin**, focada em demonstrar a implementação da arquitetura **MVVM** e o consumo eficiente de APIs REST utilizando a **PokéAPI**.
 
 
-## 🔗 Links Úteis
 
-| 📂 Código Fonte | 📥 Versão Estável |
-| :--- | :--- |
-| [![Acessar Branch Master](https://img.shields.io/badge/Acessar_Código-Master-blue?style=for-the-badge&logo=github)](https://github.com/douglas2990/dex2990/tree/master) | [![Download APK](https://img.shields.io/badge/Download-APK-success?style=for-the-badge&logo=android)](https://github.com/douglas2990/dex2990/releases/download/v1.0.0/app-debug.apk) |
 
 ---
 
@@ -50,6 +46,16 @@ O ecossistema do projeto foi construído com ferramentas consolidadas no mercado
 | Listagem | Detalhes Técnicos |
 | :---: | :---: |
 | <img src="screenshots/lista.png" width="250"> | <img src="screenshots/detalhes.png" width="250"> |
+
+
+
+## 🔗 Links Úteis
+
+| 📂 Repositório Principal |
+| :--- |
+| [![Acessar Branch Master](https://img.shields.io/badge/Acessar_Código_Fonte-Branch_Master-blue?style=for-the-badge&logo=github)](https://github.com/douglas2990/dex2990/tree/master) |
+
+---
 
 ## 📥 Download do App
 
