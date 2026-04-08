@@ -44,7 +44,7 @@ O ecossistema do projeto foi construído com ferramentas consolidadas no mercado
 
 ## 📥 Download do App
 
-[![Download APK](https://img.shields.io/badge/Download-APK-success?style=for-the-badge&logo=android)](https://github.com/douglas2990/dex2990/releases/download/v1.0.0/app-debug.apk)
+[![Download APK](https://img.shields.io/badge/Download-APK-success?style=for-the-badge&logo=android)](https://github.com/douglas2990/dex2990/releases/download/untagged-9b3fc67c4648bbe5fde3/app-debug.apk)
 
 > **Dica:** Se o download não iniciar, verifique se a versão v1.0.0 foi publicada como "Latest" no GitHub.
 
